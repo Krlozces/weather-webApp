@@ -10,6 +10,9 @@ This app uses the openweathermap API
 - It provide basic information like feels like temperature, humidity, wind speed.
 - It will give you alert if city name not matched with api data.
 
+## Link: 
+[weather-city-website-app.netlify.app](https://weather-city-website-app.netlify.app/)
+
 ## Screenshots
 ![image](https://github.com/Krlozces/weather-webApp/assets/103806591/be6071c5-e599-4f0f-bc0b-26fe3e6ed5ca)
 ![image](https://github.com/Krlozces/weather-webApp/assets/103806591/cde959ab-1f2c-4ef2-92e2-b2f49bbdf37e)
