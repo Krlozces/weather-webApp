@@ -56,5 +56,16 @@ searchBtn.addEventListener("click", () => {
     checkWeather(CITY.value)
 });
 
+$(document).ready(function() {
+    $('#city').keypress(function(e) {
+        var char = String.fromCharCode(e.which);
+
+        if (!/^[a-zA-Z]$/.test(char)) {
+            e.preventDefault();
+        }
+    });
+});
+
+
 
 
