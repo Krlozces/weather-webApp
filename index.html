@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <div class="card">
+                <div class="search">
+                    <label for="city"></label>
+                    <input type="text" name="" id="city" placeholder="Enter city name">
+                    <button>
+                        <img src="./images/search.png" alt="search icon">
+                    </button>
+                </div>
+                <div class="error">
+                    <img src="./images/no-results.png" alt="Error icon">
+                    <p>Invalid city name.</p>
+                </div>
+                <div class="weather">
+                    <img src="./images/rain.png" alt="weather icon" class="weather-icon">
+                    <h1 class="temp">22°c</h1>
+                    <h2 class="city">New York</h2>
+                    <div class="details">
+                        <div class="col">
+                            <img src="./images/humidity.png" alt="humidity icon">
+                            <div>
+                                <p class="humidity">50%</p>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img src="./images/wind.png" alt="wind icon">
+                            <div>
+                                <p class="wind">15 Km/h</p>
+                                <p>Wind Speed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <script src="./index.js" async defer></script>
+    </body>
+</html>
