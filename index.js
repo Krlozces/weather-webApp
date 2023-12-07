@@ -60,7 +60,7 @@ $(document).ready(function() {
     $('#city').keypress(function(e) {
         var char = String.fromCharCode(e.which);
 
-        if (!/^[a-zA-Z]$/.test(char)) {
+        if (!/^[a-zA-Z\s]$/.test(char)) {
             e.preventDefault();
         }
     });
